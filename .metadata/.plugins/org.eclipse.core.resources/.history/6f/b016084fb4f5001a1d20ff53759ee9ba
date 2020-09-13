@@ -1,0 +1,16 @@
+package IfStatement;
+
+public class product {
+
+	public static void main(String[] args) {
+		int counter = 0;
+		
+		for (int number = 1; number < 16; ++counter) {
+			int product = counter * number;
+			
+			System.out.print(counter);
+		}
+
+	}
+
+}
